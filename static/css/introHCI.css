@@ -21,6 +21,15 @@ body {
 	background: none;
 }
 
+.jumbotron h1 {
+     color: #674172;
+     font-family: 'Candal';
+}
+
+.jumbotron p {
+     color: #778899;
+}
+
 .jumbotron:after {
      content:"";
      background: url("http://lorempixel.com/1140/283");
@@ -46,6 +55,7 @@ p {
 }
 
 .project {
+    display: inline-block;
     margin-left: 20px;
     background-color: #deebf7;
     padding: 20px;
